@@ -73,7 +73,7 @@ a.addEventListener('change', function(){
                                         <a href="https://rezka.ag/films/horror/7734-proklyatie-annabel-2014.html">Смотреть онлайн</a>
                                     </div>
                                 </div>`
-    } else if(option == 'Babaduk')
+    } else if(option == 'Babaduk'){
         paragraf.innerHTML = `<div class="box">
                                     <img class="img1" src="./img/h32977c7829a1bg20h63a.jpg" alt="">
                                     <h1>Бабадук</h1>
@@ -82,4 +82,7 @@ a.addEventListener('change', function(){
                                         <a href="https://rezka.ag/films/drama/3311-babaduk-2014.html">Смотреть онлайн</a>
                                     </div>
                                 </div>`
+    } else{
+        paragraf.innerHTML = ''
+    }                         
 })
